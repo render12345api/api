@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sms-burst-api
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 2 --threads 4 --worker-class gthread --timeout 120 --bind 0.0.0.0:$PORT --max-requests 500 --max-requests-jitter 50
+    envVars:
+      - key: MASTER_API_KEY
+        value: bmw       # ← Change this to something secret!
+      - key: MAX_THREADS
+        value: "8"
