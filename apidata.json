@@ -234,16 +234,6 @@
         "method": "POST",
         "data": {}
       },
-      {
-        "name": "admissions",
-        "url": "https://admissions.tcet.edu.in/web/apis/sendOtp",
-        "method": "POST",
-        "data": {
-          "phone": "{target}",
-          "requestCount": 0,
-          "sessionKey": ""
-        }
-      }
     ]
   }
 }
