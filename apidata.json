@@ -234,6 +234,199 @@
         "method": "POST",
         "data": {}
       },
+      {
+        "name": "Aakash",
+        "url": "https://antheapi.aakash.ac.in/examapi/generate_register_otp",
+        "method": "POST",
+        "data": {
+          "mobile": "{target}"
+        }
+      },
+      {
+        "name": "Country Delight",
+        "url": "https://api.countrydelight.in/api/v1/customer/requestOtp",
+        "method": "POST",
+        "data": {
+          "mobileNumber": "{target}"
+        }
+      },
+      {
+        "name": "Tinder",
+        "url": "https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=en",
+        "method": "POST",
+        "data": {
+          "phone_number": "{target}"
+        }
+      },
+      {
+        "name": "Lenskart",
+        "url": "https://api.lenskart.com/v2/customers/sendOtp",
+        "method": "POST",
+        "data": {
+          "phone": "{target}"
+        }
+      },
+      {
+        "name": "Zepto",
+        "url": "https://api.zepto.co.in/api/v1/user/customer/signup/",
+        "method": "POST",
+        "data": {
+          "mobile_number": "{target}"
+        }
+      },
+      {
+        "name": "Zestmoney",
+        "url": "https://app.zestmoney.in/zestlife/v2/Customer/GenerateOtp",
+        "method": "POST",
+        "data": {
+          "mobileNumber": "{target}"
+        }
+      },
+      {
+        "name": "BigBasket",
+        "url": "https://bbdaily.bigbasket.com/bbd/ms/members/v2/sendotp",
+        "method": "POST",
+        "data": {
+          "mobile_no": "{target}"
+        }
+      },
+      {
+        "name": "GrocerApps",
+        "url": "https://endpoints.grocerapps.com/v1/otp/generate",
+        "method": "POST",
+        "data": {
+          "phone": "{target}"
+        }
+      },
+      {
+        "name": "KukuFM",
+        "url": "https://kukufm.com/api/v1.0/users/auth/send-otp/",
+        "method": "POST",
+        "data": {
+          "phone_number": "{target}"
+        }
+      },
+      {
+        "name": "Ajio Login",
+        "url": "https://login.web.ajio.com/api/auth/generateLoginOTP",
+        "method": "POST",
+        "data": {
+          "mobileNumber": "{target}"
+        }
+      },
+      {
+        "name": "Housing",
+        "url": "https://mightyzeus.housing.com/api/gql?apiName=LOGIN_SEND_OTP_API&isBot=false&source=web",
+        "method": "POST",
+        "data": {
+          "phone": "{target}"
+        }
+      },
+      {
+        "name": "MyJar",
+        "url": "https://prod.myjar.app/v2/api/auth/requestOTP?hasExperianConsent=true&phoneNumber={target}",
+        "method": "POST",
+        "data": {}
+      },
+      {
+        "name": "ConfirmTkt",
+        "url": "https://securedapi.confirmtkt.com/api/platform/registerOutput?mobileNumber={target}",
+        "method": "GET",
+        "data": {}
+      },
+      {
+        "name": "Dealshare",
+        "url": "https://services.dealshare.in/userservice/api/v1/user-login/send-login-code",
+        "method": "POST",
+        "data": {
+          "phoneNumber": "{target}"
+        }
+      },
+      {
+        "name": "Faasos",
+        "url": "https://thanos.faasos.io/v3/customer/generate_otp.json?app_version=10388&device_id=",
+        "method": "POST",
+        "data": {
+          "mobile": "{target}"
+        }
+      },
+      {
+        "name": "Meesho",
+        "url": "https://www.meesho.com/api/v1/user/login/request-otp",
+        "method": "POST",
+        "data": {
+          "phone_number": "{target}"
+        }
+      },
+      {
+        "name": "My11Circle",
+        "url": "https://www.my11circle.com/api/fl/account/v1/sendOtp",
+        "method": "POST",
+        "data": {
+          "mobileNo": "{target}"
+        }
+      },
+      {
+        "name": "RummyCircle",
+        "url": "https://www.rummycircle.com/api/fl/auth/v3/getOtp",
+        "method": "POST",
+        "data": {
+          "mobile": "{target}"
+        }
+      },
+      {
+        "name": "Coins.ph",
+        "url": "https://app.coins.ph/welcome/signup",
+        "method": "POST",
+        "data": {
+          "phone": "{target}"
+        }
+      },
+      {
+        "name": "Dawaai",
+        "url": "https://dawaai.pk/login-signup/send_verification_code",
+        "method": "POST",
+        "data": {
+          "phone": "{target}"
+        }
+      },
+      {
+        "name": "TVS Connect",
+        "url": "https://tvsconnectapi.tvsmotor.com/api/v3/UserLogin/Loginv3",
+        "method": "POST",
+        "data": {
+          "MobileNumber": "{target}"
+        }
+      },
+      {
+        "name": "Udhaar",
+        "url": "https://web.udhaar.pk/udhaar/dukaan/create/sendotp/",
+        "method": "POST",
+        "data": {
+          "mobile": "{target}"
+        }
+      },
+      {
+        "name": "BharatLoan",
+        "url": "https://www.bharatloan.com/login-sbm",
+        "method": "POST",
+        "data": {
+          "mobile": "{target}",
+          "current_page": "login",
+          "is_existing_customer": 2,
+          "device_id": ""
+        }
+      },
+      {
+        "name": "TN Eservices",
+        "url": "https://eservices.tn.gov.in/eservicesnew/land/ajax.html?page=otpgeneratenew",
+        "method": "POST",
+        "data": {
+          "mobileno": "{target}",
+          "actionid": "AC01",
+          "lan": "en"
+        }
+      }
     ]
   }
 }
